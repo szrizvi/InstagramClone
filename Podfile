@@ -7,6 +7,7 @@ target 'Instagram' do
  
   pod 'AlamofireImage'
   pod 'Parse'
+  pod 'MessageInputBar'
 
   # Pods for Instagram
 
