@@ -103,31 +103,32 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Caption" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGj-F5-xTD">
-                                                    <rect key="frame" x="69.5" y="448" width="59.5" height="17"/>
+                                                    <rect key="frame" x="70" y="448" width="59.5" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBr-BY-RhH">
-                                                    <rect key="frame" x="16" y="448" width="45.5" height="6"/>
+                                                    <rect key="frame" x="16" y="448" width="46" height="6"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="16" id="1F3-8l-GrK"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="MGj-F5-xTD" firstAttribute="top" secondItem="Ovp-Rh-Fnr" secondAttribute="bottom" constant="8" id="2fZ-LN-pG1"/>
                                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="MGj-F5-xTD" secondAttribute="trailing" constant="8" id="M5m-hS-710"/>
                                                 <constraint firstItem="MGj-F5-xTD" firstAttribute="leading" secondItem="UBr-BY-RhH" secondAttribute="trailing" constant="8" id="Rf2-TR-rnj"/>
-                                                <constraint firstItem="Ovp-Rh-Fnr" firstAttribute="top" secondItem="RfM-6f-5oZ" secondAttribute="top" constant="8" id="cop-0S-ihG"/>
-                                                <constraint firstItem="UBr-BY-RhH" firstAttribute="top" secondItem="Ovp-Rh-Fnr" secondAttribute="bottom" constant="8" id="deL-Eh-EAK"/>
                                                 <constraint firstItem="Ovp-Rh-Fnr" firstAttribute="top" secondItem="RfM-6f-5oZ" secondAttribute="top" constant="8" id="g1C-gg-R70"/>
                                                 <constraint firstAttribute="trailing" secondItem="Ovp-Rh-Fnr" secondAttribute="trailing" constant="8" id="gwq-Gk-vIR"/>
                                                 <constraint firstItem="Ovp-Rh-Fnr" firstAttribute="leading" secondItem="RfM-6f-5oZ" secondAttribute="leading" constant="8" id="lja-KU-puJ"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MGj-F5-xTD" secondAttribute="bottom" constant="8" id="pzg-k8-ZpJ"/>
                                                 <constraint firstItem="UBr-BY-RhH" firstAttribute="leading" secondItem="RfM-6f-5oZ" secondAttribute="leading" constant="16" id="r65-mo-55N"/>
-                                                <constraint firstAttribute="trailing" secondItem="Ovp-Rh-Fnr" secondAttribute="trailing" constant="8" id="r6b-jh-n1q"/>
+                                                <constraint firstItem="UBr-BY-RhH" firstAttribute="top" secondItem="Ovp-Rh-Fnr" secondAttribute="bottom" constant="8" symbolic="YES" id="xHU-8c-C04"/>
                                                 <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="UBr-BY-RhH" secondAttribute="bottom" constant="8" id="y3I-sZ-0SJ"/>
+                                                <constraint firstItem="MGj-F5-xTD" firstAttribute="firstBaseline" secondItem="UBr-BY-RhH" secondAttribute="firstBaseline" id="yHD-u7-kTa"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

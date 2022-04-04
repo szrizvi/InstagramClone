@@ -138,6 +138,10 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         selectedPost = post
     }
+    
+    /*func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 500.0;
+    }*/
     /*
     // MARK: - Navigation
 
